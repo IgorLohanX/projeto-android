@@ -161,7 +161,7 @@ main img.pequena {
     
 }
 
-/* uso do margin para fazer o verde colocar no main e deixar o video sem colar na vid, o padding para n deixar colado no aside */
+/* uso do margin para fazer o verde colar no main e deixar o video sem colar na div, o padding para n deixar colado no aside */
 div.video { 
     background-color: var(--cor5);
     margin: 0px -20px 30px -20px;
@@ -170,7 +170,7 @@ div.video {
     position: relative;
 }
 
-/* usado para centralizar o video em relação ao video */
+/* usado para centralizar o video em relação a div */
 div.video > iframe {
     position: absolute;
     top: 5%;
